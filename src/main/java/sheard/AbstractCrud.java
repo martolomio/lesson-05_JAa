@@ -2,7 +2,7 @@ package sheard;
 
 import java.sql.SQLException;
 import java.util.List;
-
+//abstract
 public interface AbstractCrud<T> {
    T create(T t);
    T read(Integer id) throws SQLException;

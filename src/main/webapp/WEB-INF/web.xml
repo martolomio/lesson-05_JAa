@@ -12,25 +12,7 @@
   	<servlet-name>register</servlet-name>
   	<servlet-class>testservelet.Register</servlet-class>
   </servlet>
-    
-  <servlet>
-  	<servlet-name>ServletLogin</servlet-name>
-  	<servlet-class>testservelet.ServletLogin</servlet-class>
-  </servlet>
 
-    <servlet-mapping>
-        <servlet-name>ServletLogin</servlet-name>
-        <url-pattern>/ServletLogin</url-pattern>
-    </servlet-mapping>
-
-  <servlet>
-      <servlet-name>ProductServlet</servlet-name>
-      <servlet-class>testservelet.ProductServlet</servlet-class>
-  </servlet> 
-  <servlet-mapping>
-      <servlet-name>ProductServlet</servlet-name>
-      <url-pattern>/ProductServlet</url-pattern>
-  </servlet-mapping>  
   <servlet-mapping>
   	<servlet-name>register</servlet-name>
   	<url-pattern>/register</url-pattern>
